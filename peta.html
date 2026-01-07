@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Peta Interaktif - Analisis PBB Kebomas</title>
+  <meta name="description" content="Peta interaktif sebaran PBB dan kependudukan di Kecamatan Kebomas.">
+  
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">Analisis PBB</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="latarbelakang.html">Latar Belakang</a></li>
+          <li><a href="peta.html" class="active">Peta</a></li>
+          <li><a href="data.html">Data</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <a class="btn-getstarted" href="data.html">Lihat Data</a>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="page-title">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Peta Interaktif</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Beranda</a></li>
+            <li class="current">Peta</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <section id="peta-section" class="contact section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Peta Sebaran PBB dan Kependudukan</h2>
+          <p>Visualisasi sebaran realisasi penerimaan PBB Kecamatan Kebomas Tahun 2023.</p>
+        </div>
+
+        <div class="row gy-4">
+          
+          <div class="col-lg-9">
+            <iframe src="gresikpeta.html" 
+                    width="100%" 
+                    height="600" 
+                    style="border:1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" 
+                    allowfullscreen>
+              Memuat peta...
+            </iframe>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card h-100 border-0 shadow-sm bg-light">
+              <div class="card-body">
+                <h5 class="card-title fw-bold mb-3 border-bottom pb-2"><i class="bi bi-map me-2"></i>Legenda</h5>
+                
+                <div class="d-flex align-items-center mb-3">
+                  <div class="flex-shrink-0">
+                    <span class="badge p-3 rounded-circle me-2" style="background-color: #145a32;"> </span>
+                  </div>
+                  <div>
+                    <h6 class="mb-0 fw-bold" style="color: #145a32;">Tinggi</h6>
+                    <small>> Rp 3 Miliar</small>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-center mb-3">
+                  <div class="flex-shrink-0">
+                    <span class="badge p-3 rounded-circle me-2" style="background-color: #4caf50;"> </span>
+                  </div>
+                  <div>
+                    <h6 class="mb-0 fw-bold" style="color: #4caf50;">Menengah</h6>
+                    <small>Rp 1 M - Rp 3 M</small>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-center mb-4">
+                  <div class="flex-shrink-0">
+                    <span class="badge p-3 rounded-circle me-2" style="background-color: #b9f6ca;"> </span>
+                  </div>
+                  <div>
+                    <h6 class="mb-0 fw-bold" style="color: #69b07d;">Rendah</h6>
+                    <small>< Rp 1 Miliar</small>
+                  </div>
+                </div>
+
+                <hr>
+                
+                <div class="alert alert-light border py-2 small mb-0" style="font-size: 0.85rem;">
+                  <i class="bi bi-info-circle-fill me-1 text-secondary"></i>
+                  <strong>Catatan:</strong><br>
+                  Gradasi warna menunjukkan tingkat kontribusi pajak dari Tinggi (Hijau Tua) ke Rendah (Hijau Muda).
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 mt-4">
+            <div class="p-4 border rounded bg-white shadow-sm">
+                <h4 class="mb-4"><i class="bi bi-list-ul me-2"></i>Detail Wilayah per Kategori</h4>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="list-group">
+                            <div class="list-group-item fw-bold d-flex justify-content-between align-items-center text-white" style="background-color: #145a32;">
+                                <span>Tinggi (> 3 M)</span>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <div class="list-group-item small bg-light">
+                                Indro, Segoromadu, Kembangan, Sidomoro, Prambangan, Randuagung, Kebomas, Gulomantung.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <div class="list-group">
+                             <div class="list-group-item fw-bold d-flex justify-content-between align-items-center text-white" style="background-color: #4caf50;">
+                                <span>Menengah (1 - 3 M)</span>
+                                <i class="bi bi-dash-circle-fill"></i>
+                            </div>
+                            <div class="list-group-item small bg-light">
+                                Dahanrejo, Sekarkurung, Karangkiring, Kedayang.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <div class="list-group">
+                             <div class="list-group-item fw-bold d-flex justify-content-between align-items-center text-dark" style="background-color: #b9f6ca;">
+                                <span>Rendah (< 1 M)</span>
+                                <i class="bi bi-x-circle-fill"></i>
+                            </div>
+                            <div class="list-group-item small bg-light">
+                                Ngargosari, Gending, Singosari, Tenggulunan, Klangonan, Sukorejo, Kawis Anyar, Sidomukti, Giri.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Analisis PBB</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Kecamatan Kebomas, Kabupaten Gresik</p>
+            <p>Provinsi Jawa Timur, Indonesia</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6">
+            </div>
+
+        <div class="col-lg-4 col-md-6 footer-about">
+            </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1">Mahasiswa Informatika</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

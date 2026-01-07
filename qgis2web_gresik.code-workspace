@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"name": "qgis2web_gresik",
+			"path": "../qgis2web_gresik"
+		},
+		{
+			"name": "SIG WEB",
+			"path": "."
+		},
+		{
+			"name": "styles",
+			"path": "../qgis2web_gresik/styles"
+		},
+		{
+			"name": "images",
+			"path": "../qgis2web_gresik/images"
+		},
+		{
+			"name": "layers",
+			"path": "../qgis2web_gresik/layers"
+		},
+		{
+			"name": "resources",
+			"path": "../qgis2web_gresik/resources"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SIG WEB"
+	}
+}
